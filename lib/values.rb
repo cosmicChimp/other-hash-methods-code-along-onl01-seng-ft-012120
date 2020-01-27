@@ -10,5 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.values.flatten
+  get_the_values
   #code your solution here!
 end
